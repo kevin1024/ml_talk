@@ -1,0 +1,47 @@
+Intro
+Arthur Samuel (1959) - Machine Learning: Field of study that gives computers the
+ability to learn without being explicitly programmed.  Wrote a checkers program
+back in 1959.
+Tom Mitchell (1998): Well-posed Learning Problem:  A computer program is said to
+learn from experience E with respect to some task T and some performance measure
+P if its performance on T, as measured by P, improves with experience E
+
+SUPERVISED LEARNING
+
+  - REGRESSION (continuous valued output)
+    - housing prices
+    - gradient descent
+    - normal equation
+
+  - CLASSIFICATION (discrete output)
+    - cancer
+    - handwriting recognition
+
+  - helicopter
+
+
+DATASET STUFF
+  - Regularization
+  - Overfitting
+  - Bias vs Variance
+  - Precision vs Recall
+  - Dimensionality Reduction (PCA)
+
+
+UNSUPERVISED LEARNING
+
+  - Clustering
+    -K-Means
+
+
+ADVANCED ALGORITHMS
+
+  - NEURAL NETWORKS
+  - face recognition
+  - SUPPORT VECTOR MACHINES
+  - Collaborative Filtering
+
+
+
+LIBRARIES N STUFF
+opencv
