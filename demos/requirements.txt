@@ -2,3 +2,7 @@ numpy
 scipy
 scikit-learn
 pymongo
+matplotlib
+ipython
+pyzmq
+tornado
