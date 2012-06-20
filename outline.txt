@@ -15,6 +15,7 @@ SUPERVISED LEARNING
 
   - CLASSIFICATION (discrete output)
     - cancer
+    - detexify http://detexify.kirelabs.org/classify.html
     - handwriting recognition
 
   - helicopter
