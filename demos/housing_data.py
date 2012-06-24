@@ -7,7 +7,7 @@ houses = c.properties.properties.find({'living_area':{'$exists':1},'list_price':
 def _get_data(count):
     global houses
     house_slice = itertools.islice(houses,0,count)
-    out = [(int(h['living_area']),int(h['list_price'])) for h in house_slice if h.get('list_price') and h.get('living_area')]
+    out = [(int(h['living_area']),int(h['list_price'])/1000) for h in house_slice if h.get('list_price') and h.get('living_area')]
     return zip(*out)
 
 
