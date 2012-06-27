@@ -2,7 +2,7 @@ import pymongo
 import itertools
 
 c = pymongo.Connection()
-houses = c.properties.properties.find({'living_area':{'$exists':1},'list_price':{'$exists':1}},fields=['living_area','list_price'])
+houses = c.properties.properties.find({'living_area':{'$lt':5000},'list_price':{'$lt':2000000}},fields=['living_area','list_price'])
 
 def _get_data(count):
     global houses
